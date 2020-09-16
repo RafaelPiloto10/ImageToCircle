@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Image to Circle</title>
+	<meta name="description" content="Crops any image into a circle image">
+	<meta name="Rafael Piloto" content="SitePoint">
+
+	<link rel="stylesheet" href="Croppie-2.6.4/croppie.css">
+</head>
+
+<body>
+
+	<h1>Image to Circle</h1>
+	<div class="demo-wrap upload-demo">
+		<div class="container">
+			<div class="grid">
+				<div class="col-1-2">
+					<strong>Upload Example (with exif orientation compatability)</strong>
+					<div class="actions">
+						<a class="btn file-btn">
+							<span>Upload</span>
+							<input type="file" id="upload" value="Choose a file" accept="image/*" />
+						</a>
+						<button class="upload-result">Result</button>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="upload-msg">
+						Upload a file to start cropping
+					</div>
+					<div class="upload-demo-wrap">
+						<div id="upload-demo"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	crossorigin="anonymous"></script>
+<script src="Croppie-2.6.4/croppie.min.js"></script>
+<script src="index.js"></script>
+
+</html>
